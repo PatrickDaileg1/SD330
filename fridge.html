@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Head-->
+<head>
+    <title>E10 - Daileg</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="fridge.css">
+</head>
+
+<!--Body-->
+<body>
+
+<!--Button Division-->
+<center>
+    <h2><b>Patrick's Virtual Refrigerator</b></h2>
+    </center>
+
+    <!--On/Off Toggle Switch-->
+    <div class="toggle">
+        <h1>Toggle Screen</h1>
+
+        <label class="switch">
+            <input type="checkbox" onclick="toggleScreen()">
+            <span class="slider"></span>
+        </label>
+
+
+        <center>
+            <footer>
+                <br>
+                &copy; P. Daileg 11-5-2024
+            </footer>
+        </center>
+
+        <!--Allows the screen to play audio when opened.-->
+        <audio id="startupAudio">
+            <source src="Windows LH Startup.wav" type="audio/wav">
+        </audio>
+        <!--Allows the screen to play audio when closed.-->
+        <audio id="shutdownAudio">
+            <source src="Windows 7 Shutdown.wav" type="audio/wav">
+        </audio>
+    </div>
+
+
+
+    <!--Screen Division-->
+    <div id="screenDiv">
+
+    <!--Home Button-->
+    <button onclick="goHome()" type="button">
+    <img width="100" height="100" src="https://i.pinimg.com/736x/48/bc/d6/48bcd68d718226b7febeb4407548953d.jpg" alt="homeButton">
+    <br>Home</button>
+        
+    <!--Browser Button-->
+    <button onclick="openBrowser()" type="button">
+    <img width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Google_Chrome_icon_%282011%29.png" alt="browser">
+    <br>Browser</button>
+            
+        <!--Netflix Button-->
+        <button onclick="watchNetflix()"type="button">
+        <img width="100" height="100" src="https://cdn.iphoneincanada.ca/wp-content/uploads/2016/06/netflix-logo-branding.png" alt="netflix">
+        <br>Netflix</button>
+
+        <!--Music Player Button-->
+        <button onclick="toggleMusic()"type="button">
+        <img width="100" height="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Apple_Music_icon.svg/2048px-Apple_Music_icon.svg.png" alt="music">
+        <br>Music Player</button>
+            
+        <!--Open Fridge Button-->
+        <button onclick="viewFridge()" type="button">
+        <img width="100" height="100" src="https://illustoon.com/photo/7909.png" alt="openfridge">
+        <br>View Fridge</button>
+        
+        <!--Check Temperature Button-->
+        <button onclick="getTemperature()" type="button">
+        <img width="100" height="100" src="https://cdn.creazilla.com/cliparts/76396/thermometer-clipart-md.png" alt="temperature">
+        <br>Fridge Temperature</button>
+
+        <!--Timer Button-->
+        <button onclick="fridgeTimer()" type="button">
+        <img width="100" height="100" src="https://cdn.creazilla.com/cliparts/78048/stopwatch-clipart-md.png" alt="timer">
+        <br>Timer</button>
+
+        <!--Show Time Button-->
+        <button onclick="toggleTime()" type="button">
+        <img width="100" height="100" src="https://content.mycutegraphics.com/graphics/household/alarm-clock.png" alt="clock">
+        <br>Show Time</button>
+
+        <!--Allows the timer to play audio when finished.-->
+        <audio id="timerAudio">
+            <source src="ding.mp3" type="audio/mpeg">
+        </audio>
+
+        <!--Weather Button-->
+        <button onclick="getWeather()" type="button">
+        <img width="100" height="100" src="https://static.wikia.nocookie.net/ipod/images/d/d6/Weather_iOS_15.png/revision/latest?cb=20220611140027" alt="timer">
+        <br>Weather</button>
+
+        <!--Grocery List Button-->
+        <button onclick="getList()" type="button">
+        <img width="100" height="100" src="https://cdn-icons-png.flaticon.com/512/1216/1216995.png" alt="timer">
+        <br>Grocery List</button><br>
+
+
+
+        <!--These buttons allow you to choose between Celsius and Fahrenheit-->
+        <br><b>Fridge Temperature Settings</b><br>
+        <button type="button" onclick="changeToFahrenheit()">Fridge Temp (Fahrenheit)</button>
+        <button type="button" onclick="changeToCelsius()">Fridge Temp (Celsius)</button>
+        <br>
+        
+        <!--These buttons allow you to choose between Celsius and Fahrenheit-->
+        <button type="button" onclick="increaseTemperature()" style="color:red;">Fridge Temp (+1deg)</button>
+        <button type="button" onclick="decreaseTemperature()" style="color:blue;">Fridge Temp (-1deg)</button>
+
+        <!--Status Division (Temperature)-->
+        <div class="tempDisplay">
+        <br><h1 id="currentTemperature"></h1>
+        </div>
+
+
+        <!--These buttons allow you to choose between 24 hour and 12 hour time.-->
+        <br><br>
+
+        <b>Clock Settings</b><br><br>
+        <button type="button" onclick="getMilitaryTime()">24-Hour Time</button>
+        <button type="button" onclick="getTime()">12-Hour Time</button>
+        <br>
+        
+        <!--Status Division (Time)-->
+        <div id="clockDiv">
+        <h1 id="currentTime"></h1>
+        </div><br><br>
+
+        <div id="listDiv">
+            <div id="grocery">
+            <ul>
+                <b>Shopping List</b>
+                <li>Eggs</li>
+                <li>Milk</li>
+                <li>Bread</li>
+                <li>Coffee</li>
+                <li>Waffle Mix</li>
+            </ul>
+        </div>
+            <input type="text" id="newitem" name="newitem"><br><br>
+            <button onclick="addItem()">Add Item to List</button>
+        </div>
+        <br><br>
+
+        <!--A music player-->            
+        <div id="musicDiv">
+            <b>Daydreaming Playlist Sampler</b><br><br>
+
+            <b>1. Rainbow Road from "Mario Kart 7" - Nintendo</b><br>
+            <b>2. I'm Fine - Ashe</b><br>
+            <b>3. Million Dollar Man - Lana Del Rey (Instrumental)</b><br><br>
+            <audio controls src="Rainbow Road.mp3"></audio>
+        <a href="Rainbow Road.mp3"><br><br>
+        
+            <audio controls src="I'm Fine.mp3"></audio>
+            <a href="I'm Fine.mp3"><br><br>
+
+            <audio controls src="Million Dollar Man (Instrumental).mp3"></audio>
+        <a href="Million Dollar Man (Instrumental).mp3"><br><br>
+
+        </div><br><br>
+
+        <img id="fridgeImage" src="https://i.sstatic.net/b4Qi8.png" alt="Fridge Image" width="420" height="400">
+        
+    </div>
+
+    <script src="fridge.js"></script>
+
+
+
+
+</body>
+
+</html>
