@@ -1,0 +1,44 @@
+h1{
+    font-family: sans-serif;
+    background-color: #0856ab;
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+}
+h2{
+    font-family: sans-serif;
+    background-color: #43cef9;
+    color: gray;
+    font-size: 20px;
+    height: 70px;
+    text-align: center;
+}
+body {
+    background-image: url('https://wparena.com/wp-content/uploads/2009/09/img0.jpg');
+}
+#files{
+    background-image: url('filelistbg.png');
+    background-repeat: no-repeat;
+    background-size: 525px 1000px;
+
+}
+#profile{
+    background-image: url('filelistbg.png');
+    background-repeat: no-repeat;
+    background-size: 590px 700px;
+    float:right;
+
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}  
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
