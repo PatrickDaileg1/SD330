@@ -16,7 +16,7 @@
                         "availability": "Filled",
                         "filledTime": "2024-11-25T7:50:51Z",
                         "reservedTime": null,
-                        "plateNumber": "HHJ1152",
+                        "vehNickname": "Ethereal",
                         "vehMake": "Chrysler",
                         "vehModel": "Pacifica",
                         "vehYear": "2017"
@@ -27,7 +27,7 @@
                         "availability": "Filled",
                         "filledTime": "2024-11-25T7:30:21Z",
                         "reservedTime": null,
-                        "plateNumber": "BE50828",
+                        "vehNickname": "El Subaru",
                         "vehMake": "Subaru",
                         "vehModel": "Forester",
                         "vehYear": "2020"
@@ -38,7 +38,7 @@
                         "availability": "Filled",
                         "filledTime": "2024-11-25T6:30:00Z",
                         "reservedTime": "2024-11-25T6:10:00Z",
-                        "plateNumber": "EXD9089",
+                        "vehNickname": null,
                         "vehMake": "BMW",
                         "vehModel": "X1",
                         "vehYear": "2020"
@@ -49,7 +49,7 @@
                         "availability": "Filled",
                         "filledTime": "2024-11-25T7:45:11Z",
                         "reservedTime": null,
-                        "plateNumber": "8FOR039",
+                        "vehNickname": "Milo Monroe",
                         "vehMake": "Honda",
                         "vehModel": "Pilot",
                         "vehYear": "2019"
@@ -60,10 +60,10 @@
                         "availability": "Filled",
                         "filledTime": "2024-11-25T8:10:11Z",
                         "reservedTime": null,
-                        "plateNumber": "PRBLMS",
-                        "vehMake": "Land Rover",
-                        "vehModel": "Discovery",
-                        "vehYear": "2018"
+                        "vehNickname": "Mouse Johnson",
+                        "vehMake": "Toyota",
+                        "vehModel": "Sienna",
+                        "vehYear": "2009"
                     },
                     "space6": {
                         "type": "Faculty/Staff",
@@ -71,7 +71,7 @@
                         "availability": "Reserved",
                         "filledTime": null,
                         "reservedTime": "2024-11-25T8:15:00Z",
-                        "plateNumber": "BVH949",
+                        "vehNickname": "Dawn Horseradish",
                         "vehMake": "Honda",
                         "vehModel": "Odyssey",
                         "vehYear": "2019"
@@ -82,7 +82,7 @@
                         "availability": "Reserved",
                         "filledTime": null,
                         "reservedTime": "2024-11-25T13:10:00Z",
-                        "plateNumber": "EMD1815",
+                        "vehNickname": "Garmadon",
                         "vehMake": "Ford",
                         "vehModel": "Galaxy",
                         "vehYear": "2011"
@@ -93,7 +93,7 @@
                         "availability": "Reserved",
                         "filledTime": null,
                         "reservedTime": "2024-11-25T11:45:00Z",
-                        "plateNumber": "VAMPYR13",
+                        "vehNickname": null,
                         "vehMake": "Porsche",
                         "vehModel": "Cayenne",
                         "vehYear": "2005"
@@ -104,7 +104,7 @@
                         "availability": "Filled",
                         "filledTime": "2024-11-25T8:25:00Z",
                         "reservedTime": null,
-                        "plateNumber": "AWK8559",
+                        "vehNickname": "Rouge",
                         "vehMake": "Lamborghini",
                         "vehModel": "Aventador",
                         "vehYear": "2017"
@@ -115,7 +115,7 @@
                         "availability": "Available",
                         "filledTime": null,
                         "reservedTime": null,
-                        "plateNumber": null,
+                        "vehNickname": null,
                         "vehMake": null,
                         "vehModel": null,
                         "vehYear": null
@@ -126,7 +126,7 @@
                         "availability": "Available",
                         "filledTime": null,
                         "reservedTime": null,
-                        "plateNumber": null,
+                        "vehNickname": null,
                         "vehMake": null,
                         "vehModel": null,
                         "vehYear": null
@@ -137,7 +137,7 @@
                         "availability": "Available",
                         "filledTime": null,
                         "reservedTime": null,
-                        "plateNumber": null,
+                        "vehNickname": null,
                         "vehMake": null,
                         "vehModel": null,
                         "vehYear": null
