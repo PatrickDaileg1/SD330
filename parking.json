@@ -1,0 +1,194 @@
+{
+    "parkingLots": {
+        "McCann": {
+            "Name": "McCann",
+            "mapFileName": "mapMcCann.png",
+            "totalSpaces": "90",
+            "comments": "Next to the Gym, dorms, and the Football field. Things get busy here in McCann.",
+            "renovationStatus": "No",
+            "eventStatus": "Yes",
+            "visitorsAllowed": "Yes",
+            "spots": [
+                {
+                    "space1": {
+                        "type": "Student",
+                        "handicap": "No",
+                        "availability": "Filled",
+                        "filledTime": "2024-11-25T7:50:51Z",
+                        "reservedTime": null,
+                        "plateNumber": "HHJ1152",
+                        "vehMake": "Chrysler",
+                        "vehModel": "Pacifica",
+                        "vehYear": "2017"
+                    },
+                    "space2": {
+                        "type": "Student",
+                        "handicap": "No",
+                        "availability": "Filled",
+                        "filledTime": "2024-11-25T7:30:21Z",
+                        "reservedTime": null,
+                        "plateNumber": "BE50828",
+                        "vehMake": "Subaru",
+                        "vehModel": "Forester",
+                        "vehYear": "2020"
+                    },
+                    "space3": {
+                        "type": "Student",
+                        "handicap": "Yes",
+                        "availability": "Filled",
+                        "filledTime": "2024-11-25T6:30:00Z",
+                        "reservedTime": "2024-11-25T6:10:00Z",
+                        "plateNumber": "EXD9089",
+                        "vehMake": "BMW",
+                        "vehModel": "X1",
+                        "vehYear": "2020"
+                    },
+                    "space4": {
+                        "type": "Faculty/Staff",
+                        "handicap": "No",
+                        "availability": "Filled",
+                        "filledTime": "2024-11-25T7:45:11Z",
+                        "reservedTime": null,
+                        "plateNumber": "8FOR039",
+                        "vehMake": "Honda",
+                        "vehModel": "Pilot",
+                        "vehYear": "2019"
+                    },
+                    "space5": {
+                        "type": "Student",
+                        "handicap": "No",
+                        "availability": "Filled",
+                        "filledTime": "2024-11-25T8:10:11Z",
+                        "reservedTime": null,
+                        "plateNumber": "PRBLMS",
+                        "vehMake": "Land Rover",
+                        "vehModel": "Discovery",
+                        "vehYear": "2018"
+                    },
+                    "space6": {
+                        "type": "Faculty/Staff",
+                        "handicap": "No",
+                        "availability": "Reserved",
+                        "filledTime": null,
+                        "reservedTime": "2024-11-25T8:15:00Z",
+                        "plateNumber": "BVH949",
+                        "vehMake": "Honda",
+                        "vehModel": "Odyssey",
+                        "vehYear": "2019"
+                    },
+                    "space7": {
+                        "type": "Faculty/Staff",
+                        "handicap": "No",
+                        "availability": "Reserved",
+                        "filledTime": null,
+                        "reservedTime": "2024-11-25T13:10:00Z",
+                        "plateNumber": "EMD1815",
+                        "vehMake": "Ford",
+                        "vehModel": "Galaxy",
+                        "vehYear": "2011"
+                    },
+                    "space8": {
+                        "type": "Faculty/Staff",
+                        "handicap": "Yes",
+                        "availability": "Reserved",
+                        "filledTime": null,
+                        "reservedTime": "2024-11-25T11:45:00Z",
+                        "plateNumber": "VAMPYR13",
+                        "vehMake": "Porsche",
+                        "vehModel": "Cayenne",
+                        "vehYear": "2005"
+                    },
+                    "space9": {
+                        "type": "Faculty/Staff",
+                        "handicap": "Yes",
+                        "availability": "Filled",
+                        "filledTime": "2024-11-25T8:25:00Z",
+                        "reservedTime": null,
+                        "plateNumber": "AWK8559",
+                        "vehMake": "Lamborghini",
+                        "vehModel": "Aventador",
+                        "vehYear": "2017"
+                    },
+                    "space10": {
+                        "type": "Student",
+                        "handicap": "Yes",
+                        "availability": "Available",
+                        "filledTime": null,
+                        "reservedTime": null,
+                        "plateNumber": null,
+                        "vehMake": null,
+                        "vehModel": null,
+                        "vehYear": null
+                    },
+                    "space11": {
+                        "type": "Student",
+                        "handicap": "Yes",
+                        "availability": "Available",
+                        "filledTime": null,
+                        "reservedTime": null,
+                        "plateNumber": null,
+                        "vehMake": null,
+                        "vehModel": null,
+                        "vehYear": null
+                    },
+                    "space12": {
+                        "type": "Student",
+                        "handicap": "No",
+                        "availability": "Available",
+                        "filledTime": null,
+                        "reservedTime": null,
+                        "plateNumber": null,
+                        "vehMake": null,
+                        "vehModel": null,
+                        "vehYear": null
+                    }
+                }
+            ]
+        },
+        "Fulton": {
+            "Name": "Fulton",
+            "mapFileName": "mapFulton.png",
+            "totalSpaces": "50",
+            "comments": "Across the street from the main campus, make sure you have enough time to get to class if you park here.",
+            "renovationStatus": "No",
+            "eventStatus": "No",
+            "visitorsAllowed": "No"
+        },
+        "Riverview": {
+            "Name": "Riverview",
+            "mapFileName": "mapRiverview.png",
+            "totalSpaces": "30",
+            "comments": "Right outside the Hancock building. Can get busy in the afternoon, or when seminars host many visitors here",
+            "renovationStatus": "No",
+            "eventStatus": "Yes",
+            "visitorsAllowed": "Yes"
+        },
+        "UpperHoop": {
+            "Name": "Upper Hoop",
+            "mapFileName": "mapUpperHoop.png",
+            "totalSpaces": "90",
+            "comments": "Be aware of some construction undergoing in a few weeks.",
+            "renovationStatus": "Yes",
+            "eventStatus": "No",
+            "visitorsAllowed": "No"
+        },
+        "Dyson": {
+            "Name": "Dyson",
+            "mapFileName": "mapDyson.png",
+            "totalSpaces": "30",
+            "comments": "Located in the center of the main campus. Keep in mind construction workers are putting the finishing touches on the building itself.",
+            "renovationStatus": "Yes",
+            "eventStatus": "No",
+            "visitorsAllowed": "No"
+        },
+        "Fontaine": {
+            "Name": "Fontaine",
+            "mapFileName": "mapFontaine.png",
+            "totalSpaces": "30",
+            "comments": "Next to the Fontaine/English Building near North End. Expect a lot of Subarus. English teachers love Subarus.",
+            "renovationStatus": "No",
+            "eventStatus": "No",
+            "visitorsAllowed": "No"
+        }
+    }
+}
