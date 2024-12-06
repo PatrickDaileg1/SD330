@@ -152,7 +152,9 @@
             "comments": "Across the street from the main campus, make sure you have enough time to get to class if you park here.",
             "renovationStatus": "No",
             "eventStatus": "No",
-            "visitorsAllowed": "No"
+            "visitorsAllowed": "No",
+            "spots": [
+            ]
         },
         "Riverview": {
             "Name": "Riverview",
@@ -161,7 +163,9 @@
             "comments": "Right outside the Hancock building. Can get busy in the afternoon, or when seminars host many visitors here",
             "renovationStatus": "No",
             "eventStatus": "Yes",
-            "visitorsAllowed": "Yes"
+            "visitorsAllowed": "Yes",
+            "spots": [
+            ]
         },
         "UpperHoop": {
             "Name": "Upper Hoop",
@@ -170,7 +174,9 @@
             "comments": "Be aware of some construction undergoing in a few weeks.",
             "renovationStatus": "Yes",
             "eventStatus": "No",
-            "visitorsAllowed": "No"
+            "visitorsAllowed": "No",
+            "spots": [
+            ]
         },
         "Dyson": {
             "Name": "Dyson",
@@ -179,7 +185,9 @@
             "comments": "Located in the center of the main campus. Keep in mind construction workers are putting the finishing touches on the building itself.",
             "renovationStatus": "Yes",
             "eventStatus": "No",
-            "visitorsAllowed": "No"
+            "visitorsAllowed": "No",
+            "spots": [
+            ]
         },
         "Fontaine": {
             "Name": "Fontaine",
@@ -188,7 +196,9 @@
             "comments": "Next to the Fontaine/English Building near North End. Expect a lot of Subarus. English teachers love Subarus.",
             "renovationStatus": "No",
             "eventStatus": "No",
-            "visitorsAllowed": "No"
+            "visitorsAllowed": "No",     
+            "spots": [
+            ]
         }
     }
 }
