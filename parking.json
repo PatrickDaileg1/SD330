@@ -11,65 +11,65 @@
             "spots": [
                 {
                     "space1": {
-                        "type": "Student",
+                        "spotType": "Student",
                         "handicap": "No",
                         "availability": "Filled",
                         "filledTime": "2024-11-25T7:50:51Z",
-                        "reservedTime": null,
+                        "reservedTime": "",
                         "vehNickname": "Ethereal",
                         "vehMake": "Chrysler",
                         "vehModel": "Pacifica",
                         "vehYear": "2017"
                     },
                     "space2": {
-                        "type": "Student",
+                        "spotType": "Student",
                         "handicap": "No",
                         "availability": "Filled",
                         "filledTime": "2024-11-25T7:30:21Z",
-                        "reservedTime": null,
+                        "reservedTime": "",
                         "vehNickname": "El Subaru",
                         "vehMake": "Subaru",
                         "vehModel": "Forester",
                         "vehYear": "2020"
                     },
                     "space3": {
-                        "type": "Student",
+                        "spotType": "Student",
                         "handicap": "Yes",
                         "availability": "Filled",
                         "filledTime": "2024-11-25T6:30:00Z",
                         "reservedTime": "2024-11-25T6:10:00Z",
-                        "vehNickname": null,
+                        "vehNickname": "",
                         "vehMake": "BMW",
                         "vehModel": "X1",
                         "vehYear": "2020"
                     },
                     "space4": {
-                        "type": "Faculty/Staff",
+                        "spotType": "Faculty/Staff",
                         "handicap": "No",
                         "availability": "Filled",
                         "filledTime": "2024-11-25T7:45:11Z",
-                        "reservedTime": null,
+                        "reservedTime": "",
                         "vehNickname": "Milo Monroe",
                         "vehMake": "Honda",
                         "vehModel": "Pilot",
                         "vehYear": "2019"
                     },
                     "space5": {
-                        "type": "Student",
+                        "spotType": "Student",
                         "handicap": "No",
                         "availability": "Filled",
                         "filledTime": "2024-11-25T8:10:11Z",
-                        "reservedTime": null,
+                        "reservedTime": "",
                         "vehNickname": "Mouse Johnson",
                         "vehMake": "Toyota",
                         "vehModel": "Sienna",
                         "vehYear": "2009"
                     },
                     "space6": {
-                        "type": "Faculty/Staff",
+                        "spotType": "Faculty/Staff",
                         "handicap": "No",
                         "availability": "Reserved",
-                        "filledTime": null,
+                        "filledTime": "",
                         "reservedTime": "2024-11-25T8:15:00Z",
                         "vehNickname": "Dawn Horseradish",
                         "vehMake": "Honda",
@@ -77,10 +77,10 @@
                         "vehYear": "2019"
                     },
                     "space7": {
-                        "type": "Faculty/Staff",
+                        "spotType": "Faculty/Staff",
                         "handicap": "No",
                         "availability": "Reserved",
-                        "filledTime": null,
+                        "filledTime": "",
                         "reservedTime": "2024-11-25T13:10:00Z",
                         "vehNickname": "Garmadon",
                         "vehMake": "Ford",
@@ -88,59 +88,59 @@
                         "vehYear": "2011"
                     },
                     "space8": {
-                        "type": "Faculty/Staff",
+                        "spotType": "Faculty/Staff",
                         "handicap": "Yes",
                         "availability": "Reserved",
-                        "filledTime": null,
+                        "filledTime": "",
                         "reservedTime": "2024-11-25T11:45:00Z",
-                        "vehNickname": null,
+                        "vehNickname": "",
                         "vehMake": "Porsche",
                         "vehModel": "Cayenne",
                         "vehYear": "2005"
                     },
                     "space9": {
-                        "type": "Faculty/Staff",
+                        "spotType": "Faculty/Staff",
                         "handicap": "Yes",
                         "availability": "Filled",
                         "filledTime": "2024-11-25T8:25:00Z",
-                        "reservedTime": null,
+                        "reservedTime": "",
                         "vehNickname": "Rouge",
                         "vehMake": "Lamborghini",
                         "vehModel": "Aventador",
                         "vehYear": "2017"
                     },
                     "space10": {
-                        "type": "Student",
+                        "spotType": "Student",
                         "handicap": "Yes",
                         "availability": "Available",
-                        "filledTime": null,
-                        "reservedTime": null,
-                        "vehNickname": null,
-                        "vehMake": null,
-                        "vehModel": null,
-                        "vehYear": null
+                        "filledTime": "",
+                        "reservedTime": "",
+                        "vehNickname": "",
+                        "vehMake": "",
+                        "vehModel": "",
+                        "vehYear": ""
                     },
                     "space11": {
-                        "type": "Student",
+                        "spotType": "Student",
                         "handicap": "Yes",
                         "availability": "Available",
-                        "filledTime": null,
-                        "reservedTime": null,
-                        "vehNickname": null,
-                        "vehMake": null,
-                        "vehModel": null,
-                        "vehYear": null
+                        "filledTime": "",
+                        "reservedTime": "",
+                        "vehNickname": "",
+                        "vehMake": "",
+                        "vehModel": "",
+                        "vehYear": ""
                     },
                     "space12": {
-                        "type": "Student",
+                        "spotType": "Student",
                         "handicap": "No",
                         "availability": "Available",
-                        "filledTime": null,
-                        "reservedTime": null,
-                        "vehNickname": null,
-                        "vehMake": null,
-                        "vehModel": null,
-                        "vehYear": null
+                        "filledTime": "",
+                        "reservedTime": "",
+                        "vehNickname": "",
+                        "vehMake": "",
+                        "vehModel": "",
+                        "vehYear": ""
                     }
                 }
             ]
