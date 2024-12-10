@@ -1,0 +1,87 @@
+#nav {
+    font-family: sans-serif;
+    background-color: #33322e;
+    color: white;
+    font-size: 40px;
+    height: 60px;
+    text-align: center;
+
+    button {
+        background-color: #33322e;
+        font-family: Verdana, sans-serif;
+        border: none;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: medium;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #b41414;
+}
+
+button {
+    background-color: #33322e;
+    font-family: Verdana, sans-serif;
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: medium;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+footer {
+    height: fit-content;
+    background-color: #33322e;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    width: 100%;
+
+}
+
+.center {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+/* Credit: W3Schools.com */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #898c8a;
+  }
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+.infodisplay{
+    background-color: white;
+
+    b{
+      font-size: 40px;
+    }
+    h1{
+      font-size: 25px;
+    }
+    font-family: Georgia, serif;
+}
+

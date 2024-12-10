@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!--Head-->
+<head>
+    <meta charset="UTF-8">
+    <title>
+       Parking Lots - Marist Parking
+    </title>
+    <link rel="stylesheet" href="parkingCSS.css">
+    <script src="parkingJS.js"></script>
+    <script src="https://PatrickDaileg1.github.io/SD330/lots.js" type="module"></script>
+</head>
+
+<!--Body-->
+<body>
+    <center>
+        <img src="Banner.png" alt="Trulli" width="297" height="103">
+    </center>
+    
+    <h1 id="nav">
+        <button type="button" onclick="goHome()">Home</button>
+        <button type="button" onclick="fourOhFour()">Help</button>
+        <button type="button" onclick="window.location.assign('parking.html')">Log Out</button>
+                
+    </h1>
+    <!--Breadcrumb Trail-->
+    <ul class="breadcrumb">
+        <b>You are Here: </b>
+        <li><a href="Parking.html">Home</a></li>
+        <li>All Parking Lots</li>
+      </ul>
+    
+      <div class="infodisplay">
+        <center>
+            <img src="map.png" alt="Trulli" width="720" height="560">
+        </center>
+        <p id="info">
+      </div>
+</body>
+
+<!--Footer-->
+<footer>
+    <hr>
+    <center>
+        &copy; P. Daileg 12-04-2024
+    </center>
+</footer>
+
+</body>
+
+</html>
