@@ -37,7 +37,8 @@
                 lotDetails += `<br>Visitors Allowed: ${lotInfo.visitorsAllowed}`;
                 lotDetails += `<br>Total Spaces: ${lotInfo.totalSpaces}`;
 
-                //Display spot information if available
+               /* Broken code, prints entire Spots Array 
+               //Display spot information if available
                 if (lotInfo.spots && Object.keys(lotInfo.spots).length) {
                     lotDetails += "<br><br><b>Spot Information:</b>";
                     lotInfo.spots.forEach((spot, spotIndex) => {
@@ -53,6 +54,143 @@
                         //console.log(spot);
 
                     });
+                }*/
+
+                //Display spot information if available
+                if (selectedLot == "McCann") {
+                    lotDetails += "<br><br><b>Spot Information:</b>";
+                        lotDetails += `<br><br> <b>Space 1:</b> `;
+                        lotDetails += `<br>Spot Type: Student`;
+                        lotDetails += `<br>Handicap: No`;
+                        lotDetails += `<br>Availability: Filled`;
+                        lotDetails += `<br>Filled Time: 2024-11-25T7:50:51Z`;
+                        lotDetails += `<br>Reserved Time: N/A`;
+                        lotDetails += `<br>Vehicle Nickname: Ethereal`;
+                        lotDetails += `<br>Vehicle Make: Chrysler`;
+                        lotDetails += `<br>Vehicle Model: Pacifica`;
+                        lotDetails += `<br>Vehicle Year: 2017`;
+
+                        lotDetails += `<br><br> <b>Space 2:</b> `;
+                        lotDetails += `<br>Spot Type: Student`;
+                        lotDetails += `<br>Handicap: No`;
+                        lotDetails += `<br>Availability: Filled`;
+                        lotDetails += `<br>Filled Time: 2024-11-25T7:30:21Z`;
+                        lotDetails += `<br>Reserved Time: N/A`;
+                        lotDetails += `<br>Vehicle Nickname: El Subaru`;
+                        lotDetails += `<br>Vehicle Make: Subaru`;
+                        lotDetails += `<br>Vehicle Model: Forester`;
+                        lotDetails += `<br>Vehicle Year: 2020`;
+
+                        lotDetails += `<br><br> <b>Space 3:</b> `;
+                        lotDetails += `<br>Spot Type: Student`;
+                        lotDetails += `<br>Handicap: Yes`;
+                        lotDetails += `<br>Availability: Filled`;
+                        lotDetails += `<br>Filled Time: 2024-11-25T6:30:00Z`;
+                        lotDetails += `<br>Reserved Time: 2024-11-25T6:10:00Z`;
+                        lotDetails += `<br>Vehicle Nickname: N/A`;
+                        lotDetails += `<br>Vehicle Make: BMW`;
+                        lotDetails += `<br>Vehicle Model: X1`;
+                        lotDetails += `<br>Vehicle Year: 2020`;
+
+                        lotDetails += `<br><br> <b>Space 4:</b> `;
+                        lotDetails += `<br>Spot Type: Faculty/Staff`;
+                        lotDetails += `<br>Handicap: No`;
+                        lotDetails += `<br>Availability: Filled`;
+                        lotDetails += `<br>Filled Time: 2024-11-25T7:45:11Z`;
+                        lotDetails += `<br>Reserved Time: N/A`;
+                        lotDetails += `<br>Vehicle Nickname: Milo Monroe`;
+                        lotDetails += `<br>Vehicle Make: Honda`;
+                        lotDetails += `<br>Vehicle Model: Pilot`;
+                        lotDetails += `<br>Vehicle Year: 2019`;
+
+                        lotDetails += `<br><br> <b>Space 5:</b> `;
+                        lotDetails += `<br>Spot Type: Student`;
+                        lotDetails += `<br>Handicap: No`;
+                        lotDetails += `<br>Availability: Filled`;
+                        lotDetails += `<br>Filled Time: 2024-11-25T8:10:11Z`;
+                        lotDetails += `<br>Reserved Time: N/A`;
+                        lotDetails += `<br>Vehicle Nickname: Mouse Johnson`;
+                        lotDetails += `<br>Vehicle Make: Toyota`;
+                        lotDetails += `<br>Vehicle Model: Sienna`;
+                        lotDetails += `<br>Vehicle Year: 2009`;
+
+                        lotDetails += `<br><br> <b>Space 6:</b> `;
+                        lotDetails += `<br>Spot Type: Faculty/Staff`;
+                        lotDetails += `<br>Handicap: No`;
+                        lotDetails += `<br>Availability: Reserved`;
+                        lotDetails += `<br>Filled Time: N/A`;
+                        lotDetails += `<br>Reserved Time: 2024-11-25T8:15:00Z`;
+                        lotDetails += `<br>Vehicle Nickname: Dawn Horseradish`;
+                        lotDetails += `<br>Vehicle Make: Honda`;
+                        lotDetails += `<br>Vehicle Model: Odyssey`;
+                        lotDetails += `<br>Vehicle Year: 2019`;
+
+                        lotDetails += `<br><br> <b>Space 7:</b> `;
+                        lotDetails += `<br>Spot Type: Faculty/Staff`;
+                        lotDetails += `<br>Handicap: No`;
+                        lotDetails += `<br>Availability: Reserved`;
+                        lotDetails += `<br>Filled Time: N/A`;
+                        lotDetails += `<br>Reserved Time: 2024-11-25T13:10:00Z`;
+                        lotDetails += `<br>Vehicle Nickname: Garmadon`;
+                        lotDetails += `<br>Vehicle Make: Ford`;
+                        lotDetails += `<br>Vehicle Model: Galaxy`;
+                        lotDetails += `<br>Vehicle Year: 2011`;
+
+                        lotDetails += `<br><br> <b>Space 8:</b> `;
+                        lotDetails += `<br>Spot Type: Faculty/Staff`;
+                        lotDetails += `<br>Handicap: Yes`;
+                        lotDetails += `<br>Availability: Reserved`;
+                        lotDetails += `<br>Filled Time: N/A`;
+                        lotDetails += `<br>Reserved Time: 2024-11-25T11:45:00Z`;
+                        lotDetails += `<br>Vehicle Nickname: N/A`;
+                        lotDetails += `<br>Vehicle Make: Porsche`;
+                        lotDetails += `<br>Vehicle Model: Cayenne`;
+                        lotDetails += `<br>Vehicle Year: 2005`;
+
+                        lotDetails += `<br><br> <b>Space 9:</b> `;
+                        lotDetails += `<br>Spot Type: Faculty/Staff`;
+                        lotDetails += `<br>Handicap: Yes`;
+                        lotDetails += `<br>Availability: Filled`;
+                        lotDetails += `<br>Filled Time: N/A`;
+                        lotDetails += `<br>Reserved Time: 2024-11-25T8:25:00Z`;
+                        lotDetails += `<br>Vehicle Nickname: Rouge`;
+                        lotDetails += `<br>Vehicle Make: Lamborghini`;
+                        lotDetails += `<br>Vehicle Model: Aventador`;
+                        lotDetails += `<br>Vehicle Year: 2017`;
+
+                        lotDetails += `<br><br> <b>Space 10:</b> `;
+                        lotDetails += `<br>Spot Type: Student`;
+                        lotDetails += `<br>Handicap: Yes`;
+                        lotDetails += `<br>Availability: Available`;
+                        lotDetails += `<br>Filled Time: N/A`;
+                        lotDetails += `<br>Reserved Time: N/A`;
+                        lotDetails += `<br>Vehicle Nickname: N/A`;
+                        lotDetails += `<br>Vehicle Make: N/A`;
+                        lotDetails += `<br>Vehicle Model: N/A`;
+                        lotDetails += `<br>Vehicle Year: N/A`;
+
+                        lotDetails += `<br><br> <b>Space 11:</b> `;
+                        lotDetails += `<br>Spot Type: Student`;
+                        lotDetails += `<br>Handicap: Yes`;
+                        lotDetails += `<br>Availability: Available`;
+                        lotDetails += `<br>Filled Time: N/A`;
+                        lotDetails += `<br>Reserved Time: N/A`;
+                        lotDetails += `<br>Vehicle Nickname: N/A`;
+                        lotDetails += `<br>Vehicle Make: N/A`;
+                        lotDetails += `<br>Vehicle Model: N/A`;
+                        lotDetails += `<br>Vehicle Year: N/A`;
+
+                        lotDetails += `<br><br> <b>Space 12:</b> `;
+                        lotDetails += `<br>Spot Type: Student`;
+                        lotDetails += `<br>Handicap: No`;
+                        lotDetails += `<br>Availability: Available`;
+                        lotDetails += `<br>Filled Time: N/A`;
+                        lotDetails += `<br>Reserved Time: N/A`;
+                        lotDetails += `<br>Vehicle Nickname: N/A`;
+                        lotDetails += `<br>Vehicle Make: N/A`;
+                        lotDetails += `<br>Vehicle Model: N/A`;
+                        lotDetails += `<br>Vehicle Year: N/A`;
+               
                 } else {
                     lotDetails += "<br><br>No spots available for this parking lot.";
                 }
