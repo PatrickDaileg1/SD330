@@ -22,7 +22,7 @@ function viewLotInfo() {
 }
 
 //LOTS JS
-    var htmlString = ""
+let htmlString = '<hr>';
     //Fetch the JSON data from GitHub repo
     const response = await fetch("https://PatrickDaileg1.github.io/SD330/parking.json")
     const data = await response.json();
@@ -44,7 +44,6 @@ function viewLotInfo() {
 
 
 //Build dropdown menu for selecting parking lots
-let htmlString = '<hr>';
 htmlString += '<b>Select a Parking Lot:</b><br>';
 htmlString += '<select id="parkingLotDropdown" name="parkingLots">';
 htmlString += '<option value="">-- Select a Parking Lot --</option>'; // Default placeholder
